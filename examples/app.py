@@ -15,19 +15,19 @@ class PersonDetails:
 
     def status(self):
         if self.age >= 18:
-            return "Adult"
+            return "Major"
         else:
             return "Minor"
     # Display the person Details in function 
 
     def showPersonDetails(self):
-        print(f"Name    : {self.name}")
-        print(f"Age     : {self.age}")
-        print(f"Mark 1  : {self.sub1}")
-        print(f"Mark 2  : {self.sub2}")
-        print(f"Mark 3  : {self.sub3}")
-        print(f"Status  : {self.status()}")
-        print(f"Average : {self.average()}")      
+        print("Name    :" , self.name)
+        print("Age     :" , self.age)
+        print("Mark 1  :" , self.sub1)
+        print("Mark 2  :" , self.sub2)
+        print("Mark 3  :" , self.sub3)
+        print("Status  :" , self.status())
+        print("Average :" , self.average())      
  
 person = PersonDetails() # object creating assigned class name 
 
