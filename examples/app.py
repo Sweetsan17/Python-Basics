@@ -24,8 +24,8 @@ class PersonDetails:
         print("Name    :" , self.name)
         print("Age     :" , self.age)
         print("E-Tech  :" , self.sub1)
-        print("SFT  :" , self.sub2)
-        print("ICT  :" , self.sub3)
+        print("SFT     :" , self.sub2)
+        print("ICT     :" , self.sub3)
         print("Status  :" , self.status())
         print("Average :" , self.average())      
  
