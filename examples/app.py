@@ -23,9 +23,9 @@ class PersonDetails:
     def showPersonDetails(self):
         print("Name    :" , self.name)
         print("Age     :" , self.age)
-        print("Mark 1  :" , self.sub1)
-        print("Mark 2  :" , self.sub2)
-        print("Mark 3  :" , self.sub3)
+        print("E-Tech  :" , self.sub1)
+        print("SFT  :" , self.sub2)
+        print("ICT  :" , self.sub3)
         print("Status  :" , self.status())
         print("Average :" , self.average())      
  
